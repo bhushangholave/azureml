@@ -1,7 +1,7 @@
 from azureml.core import Workspace
 from azureml.core.authentication import AzureCliAuthentication
 cli_auth = AzureCliAuthentication()
-ws = Workspace(subscription_id="2b044625-9119-453a-8f50-53426430883b",
+ws = Workspace(subscription_id="{{}}",
                resource_group="testingApp",
                workspace_name="bhushan-workspace",auth=cli_auth)
 # connect to your workspace
